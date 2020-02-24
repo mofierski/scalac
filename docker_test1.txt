@@ -1,0 +1,2 @@
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS              PORTS                NAMES
+93a4d139c8f6        mofierski/marcin-ofierski:scalac   "nginx -g 'daemon of…"   31 seconds ago      Up 29 seconds       0.0.0.0:80->80/tcp   flamboyant_pike
