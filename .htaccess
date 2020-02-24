@@ -1,0 +1,19 @@
+RedirectMatch 301 blog.scalac.io(.*) scalac.io/blog/$1
+
+
+<Files scalac.io/blog>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile /path/to/.htpasswd
+Require valid-user
+</Files>
+
+
+ErrorDocument 404 custom-404-error.html
+
+
+order allow,deny
+deny from 3.121.4.52
+allow from 
+
+ 
